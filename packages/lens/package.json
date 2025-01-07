@@ -1,0 +1,45 @@
+{
+  "name": "lensai-goat-sdk",
+  "version": "0.0.1",
+  "files": [
+    "dist/**/*",
+    "README.md",
+    "package.json"
+  ],
+  "scripts": {
+    "build": "pnpm clean && tsup",
+    "clean": "rm -rf dist",
+    "test": "vitest run --passWithNoTests"
+  },
+  "sideEffects": false,
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "dependencies": {
+    "@goat-sdk/core": "0.4.4",
+    "@goat-sdk/wallet-evm": "0.2.4",
+    "viem": "2.22.2",
+    "zod": "latest"
+  },
+  "peerDependencies": {
+    "@goat-sdk/core": "0.4.4"
+  },
+  "homepage": "https://ohmygoat.dev",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/goat-sdk/goat.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/goat-sdk/goat/issues"
+  },
+  "keywords": [
+    "ai",
+    "agents",
+    "web3",
+    "lens"
+  ],
+  "devDependencies": {
+    "tsup": "^8.3.5"
+  }
+}
