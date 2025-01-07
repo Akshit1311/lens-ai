@@ -16,3 +16,5 @@ Deployed Link:
 https://lensaiagent.vercel.app/
 
 Goat-SDK PR Link: https://github.com/goat-sdk/goat/pull/190
+
+Demo Video Link: https://screen.studio/share/5jWIlEAl
