@@ -3,7 +3,7 @@
 import { cn } from "@/lib/utils";
 import { createOpenAI } from "@ai-sdk/openai";
 import { getOnChainTools } from "@goat-sdk/adapter-vercel-ai";
-import { lens } from "lensai-goat-sdk";
+import { lens } from "lens-goat";
 import { viem } from "@goat-sdk/wallet-viem";
 import { generateText } from "ai";
 import React, { useState } from "react";
