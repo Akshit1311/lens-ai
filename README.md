@@ -15,5 +15,4 @@ It’s an open source plugin which can be extended further by any community pers
 Deployed Link:
 https://lensaiagent.vercel.app/
 
-Demo Video:
 Goat-SDK PR Link: https://github.com/goat-sdk/goat/pull/190
