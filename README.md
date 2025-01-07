@@ -12,4 +12,5 @@ To showcase the use of this plugin we have built a client app using vercel ai fr
 It’s an open source plugin which can be extended further by any community person to add more compatibility to the agent.
 
 Deployed Link: 
+
 Demo Video: 
